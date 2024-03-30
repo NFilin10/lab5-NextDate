@@ -66,8 +66,8 @@ public class NextDate {
 				tomorrowDay = 1;
 				tomorrowMonth = 1;
 			// To fix "Fault 2", uncomment the correct line 70 and comment out the incorrect line 69
-				if(year == 2022) //make sure the next year is within the permissible range
-//				if(year == 2021) //make sure the next year is within the permissible range
+//				if(year == 2022) //make sure the next year is within the permissible range
+				if(year == 2021) //make sure the next year is within the permissible range
 					return "Invalid Next Year";
 				else  //it was a permissible year - go ahead and increment the year
 					tomorrowYear = year +1;
@@ -121,8 +121,8 @@ public class NextDate {
 	private static boolean isThirtyOneDayMonth(int month)
 	{
 		// To fix "Fault 3", uncomment the correct line 125 and comment out the incorrect line 124
-		return month == 1 || month == 3 || month == 5 || month == 8 || month == 10;
-//		return month == 1 || month == 3 || month == 5 || month==7 || month == 8 || month == 10;
+//		return month == 1 || month == 3 || month == 5 || month == 8 || month == 10;
+		return month == 1 || month == 3 || month == 5 || month==7 || month == 8 || month == 10;
 	}
 	
 	
